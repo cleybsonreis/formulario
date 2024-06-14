@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fomrulario</title>
+    <style>
+        *{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <form action="fomr.php" method="post" autocomplete="on">
+        <h1>Formulario</h1>
+        <div><label for="inome"> Nome:</label></div>
+        <div><input type="text" name="nome" id="inome" autocomplete="username" placeholder="Nome completo" required minlength="10"></div>
+        <div><label for="isenha"> Senha:</label></div>
+        <div><input type="password" name="senha" id="isenha" required minlength="10"></div>
+        <div><input type="submit" value="Enviar" placeholder="Sua Senha" autocomplete="current-password"></div>
+        <div><input type="reset" value="Limpar"></div>
+    </form>
+</body>
+</html>
